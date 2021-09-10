@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appv6">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".vid1"></activity>
+        <activity android:name=".loganexos" />
+        <activity android:name=".ecuhomopasos" />
+        <activity android:name=".ejercicios.Ejercicios4" />
+        <activity android:name=".ejercicios.Ejercicios3" />
+        <activity android:name=".ejercicios.Ejercicios2" />
+        <activity android:name=".Tipossoluciones" />
+        <activity android:name=".Pasos_solucion" />
+        <activity android:name=".Ajustes" />
+        <activity android:name=".Cambioscuenta" />
+        <activity android:name=".ejercicios.Ejercicios1" />
+        <activity
+            android:name=".info_detallada"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Ejemplos1" />
+        <activity android:name=".InfoCom1" />
+        <activity android:name=".registro" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".menu"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

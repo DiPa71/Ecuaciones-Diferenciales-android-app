@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgred">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_tituloEcOrd3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:text="@string/txt_m3_p1_1"
+                android:textAlignment="center"
+                android:textColor="#580B0B"
+                android:textColorHint="#7EAD0909"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ed_31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                android:text="@string/txt_m3_p1_2"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tituloEcOrd" />
+
+            <TextView
+                android:id="@+id/ed_34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                android:text="@string/txt_m3_p1_3"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tituloEcOrd" />
+
+            <TextView
+                android:id="@+id/ed_44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                android:text="@string/txt_m3_p1_4"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tituloEcOrd" />
+
+            <TextView
+                android:id="@+id/ed_47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                android:text="@string/inciso1"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tituloEcOrd" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                app:srcCompat="@drawable/tema3ing1" />
+
+            <TextView
+                android:id="@+id/ed_45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                android:text="@string/txt_m3_p1_5"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tituloEcOrd" />
+
+            <TextView
+                android:id="@+id/ed_46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                android:text="@string/txt_m3_p1_6"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tituloEcOrd" />
+
+            <TextView
+                android:id="@+id/ed_48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                android:text="@string/inciso2"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tituloEcOrd" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                app:srcCompat="@drawable/tema3ing1" />
+
+            <TextView
+                android:id="@+id/ed_49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                android:text="@string/txt_m3_p1_7"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tituloEcOrd" />
+
+            <TextView
+                android:id="@+id/ed_50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                android:text="@string/txt_m3_p1_8"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tituloEcOrd" />
+
+            <TextView
+                android:id="@+id/ed_51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                android:text="@string/inciso3"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tituloEcOrd" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                app:srcCompat="@drawable/tema3ing1" />
+
+            <TextView
+                android:id="@+id/ed_52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                android:text="@string/txt_m3_p1_9"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tituloEcOrd" />
+
+            <TextView
+                android:id="@+id/ed_53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                android:text="@string/txt_m3_p1_10"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tituloEcOrd" />
+
+            <TextView
+                android:id="@+id/ed_55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                android:text="@string/inciso4"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tituloEcOrd" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                app:srcCompat="@drawable/tema3ing1" />
+
+            <TextView
+                android:id="@+id/ed_56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                android:text="@string/txt_m3_p1_11"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tituloEcOrd" />
+
+            <TextView
+                android:id="@+id/ed_57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="10dp"
+                android:ems="15"
+                android:text="@string/txt_m3_p1_12"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tituloEcOrd" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="masinfoecuhomo"
+                android:text="@string/txt_m1_p10_2" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

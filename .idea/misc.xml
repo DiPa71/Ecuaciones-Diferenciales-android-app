@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/activity_ecuhomopasos.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/activity_ejemplos1.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/activity_ejercicios1.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/activity_ejercicios2.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/activity_ejercicios3.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/activity_pasos_solucion.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/activity_registro.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/activity_vid1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/app_bar_menu.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/content_menu.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/fragment_gallery.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/fragment_quinta.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/fragment_send.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/fragment_share.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/fragment_slideshow.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Pablo/Downloads/apk david/Appv7.6/Appv6/app/src/main/res/layout/fragment_tools.xml" value="0.2957427536231884" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,256 @@
+<resources>
+    <string name="app_name">Ecuaciones Diferenciales</string>
+    <string name="adminb">Sin red</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="usr">Usuario</string>
+    <string name="ped">Contraseña</string>
+    <string name="reg">¿No cuenta con una cuenta? Registrese aqui</string>
+    <string name="reg2">Registro</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Manual de Ecuaciones Diferenciales</string>
+    <string name="nav_header_subtitle">Temas</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuracion de la cuenta</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="salir">Cerrar sesion</string>
+
+    <string name="menu_home">Ecuacion Diferencial</string>
+    <string name="menu_gallery">Orden y Grado</string>
+    <string name="menu_slideshow">Sol. General y Particular</string>
+    <string name="menu_tools">Primer Orden y Grado</string>
+    <string name="menu_share">Anexos</string>
+    <string name="menu_send">Creditos</string>
+    <string name="menuquinta">Variables Separadas</string>
+    <string name="menusexta">Ec. Homogeneas</string>
+    <string name="Titulo_1">Ecuaciones Diferenciales</string>
+    <string name="tituloOr">Ecuaciones Diferenciales ordinarias</string>
+    <string name="Introduccion">Se entiende como una ecuacion en la que intervienen derivadas de una o mas funciones desconocidas</string>
+    <string name="tl4">Orden de una ecuacion diferencial</string>
+    <string name="tx4">El orden de la ecuacion diferencial esta dado por el orden mayor de su derivada como si indica en la variable dependiente</string>
+
+
+    //registro
+    <string name="txtreg1">Usuario</string>
+    <string name="txtreg2">Nombre(s)</string>
+    <string name="txtreg3">Apellido Paterno</string>
+    <string name="txtreg4">Apellido Materno</string>
+    <string name="txtreg5">Contraseña</string>
+    <string name="txtreg6">Confirmar Contraseña</string>
+    <string name="txtreg7">Edad</string>
+    <string name="txtreg8">Estudiante</string>
+    <string name="txtreg9">Docente</string>
+    <string name="txtreg10">Registrar!</string>
+
+    //Etiquetas generales: ejemplos, ejercicios, etc
+    <string name="txt_ejemplos">Ejemplo:</string>
+    <string name="txt_ejercicios">Ejercicios:</string>
+
+
+    //Textos Tema 1 Orden y Grado
+    //pag1
+    <string name="txt_m1_p1_1">TEMA 1: Concepto, Orden y Grado de las Ecuaciones Diferenciales</string>
+    <string name="txt_m1_p1_2">Una ecuacion diferencial es una ecuacion en la que intervienen derivadas de una o mas funciones desconocidas (variables dependientes)</string>
+    <string name="txt_m1_p1_3">A la variable dependiente tambien se le llama duncion incognita(desconocida).</string>
+    <string name="txt_m1_p1_4">Ecuaciones diferenciales</string>
+    <string name="txt_m1_p1_5">"Se entiende por Ecuacion diferencial a cualquier ecuacion en la que intervienen una variable dependiente y sus respectivas derivadas con respecto a una o mas variables independientes. Se clasifican de acuerdo al tipo, orden y linealidad."</string>
+    //pag 2
+    <string name="tl1">Ecuaciones Diferenciales Ordinarias</string>
+    <string name="txt1">Aquellas que contienen derivadas respecto a una sola variable independiente y puede contener mas de una variable dependiente</string>
+    <string name="tl2">Ecuaciones Diferenciales en Derivadas Parciales</string>
+    <string name="txt2">Aquellas que contienen derivadas respecto a dos o mas variables independientes</string>
+    //pag 3
+    <string name="tl3">Clasificación de las ecuaciones diferenciales</string>
+    <string name="txt3">Se clasifican de acuerdo a su: \n\t * Tipo \n\t * Orden \n\t * Linealidad</string>
+    //pag 4
+    <string name="txt_m1_p4_1">Orden de una ecuacion diferencial</string>
+    <string name="txt_m1_p4_2">El orden de una ecuacion diferencial esta dado por el orden mayor de su derivada(como se indica en la variable dependiente).</string>
+    <string name="txt_m1_p4_3">Grado de una ecuacion diferencial</string>
+    <string name="txt_m1_p4_4">El grado de una ecuacion diferencial esta dado por el exponente del mayor orden de su derivada (es la potencia de la derivada mayor orden que aparece en la ecuacion).</string>
+    //pag 5
+    <string name="txt_m1_p5_1">Ejercicios Resueltos(4):</string>
+    //ejercicios tema 1
+    <string name="ejercicio_t1"> determina el grado y orden de la siguiente ecuacion diferencial: </string>
+    <string name="orden">Orden:</string>
+    <string name="grado">Grado:</string>
+    //pag 6
+    <string name="txt_m1_p6_1">Ejercicios Propuestos(5):</string>
+
+
+    //Textos TEMA 2 dada una ecuacion diferencial
+    //pag 8
+    <string name="txt_m1_p8_1">Dada una ecuacion diferencial, encontrar su solucion general y su solucion particular</string>
+    <string name="txt_m1_p8_2">Solucion de una ecuacion dinferencial</string>
+    <string name="txt_m1_p8_3">Una funcion que cuando se remplaza en la ecuacion diferencial de una igualdad se llama una solucion de la ecuacion diferencial, por lo tanto, resolver una ecuacion diferencial es encontrar una funcion desconocida que al ser sustituida en la ecuacion diferencial se obtiene una igualdad.</string>
+    <string name="txt_m1_p8_4">Funcion Primitiva de una Ecuacion Diferencial</string>
+    <string name="txt_m1_p8_5">Es una expresion equivalente a la ecuacion diferencial que carece de derivadas.</string>
+    <string name="txt_m1_p8_6">Resolver la ecuacion diferencial</string>
+    <string name="txt_m1_p8_7">El objetivo es encontrar la funcion y dy = 2x dx, pasando dx para poder integrar</string>
+    <string name="txt_m1_p8_8">La expresion es una "funcion primitiva" de la ecuacion diferencial.</string>
+    //pag 9
+    <string name="txt_m1_p9_1">Comprobacion:</string>
+    <string name="txt_m1_p9_2">Solucion encontrada: Es aquella funcion que al ser "sustituida" en la variable dependiente "y" satisface la ecuacion dada.</string>
+    <string name="txt_m1_p9_3">Ecuacion diferencial dada</string>
+    <string name="txt_m1_p9_4">Sustituyendo la solucion encontrada en la ecuacion diferencial dada</string>
+    <string name="txt_m1_p9_5">¡Dado que se cumple la igualdad la solucion encontrada es la correcta!</string>
+    //sbtema
+    //pag 10
+    <string name="txt_m1_p10_1">Soluciones de una ecuacion diferencial</string>
+    <string name="txt_m1_p10_2">Tipos de soluciones</string>
+    <string name="txt_m1_p10_3">Una solucions de una ecuacion diferencial es una funcion(en la que ya no aparecen derivadas ni diferenciales) que al reemplazar a la funcion incognita, en cada caso con las derivaciones correspondientes, verifica la ecuacion, es decir, la convierte en una identidad. Hay dos tipos de soluciones:</string>
+    <string name="txt_m1_p10_4">1. Solucion general: </string>
+    <string name="txt_m1_p10_5">una solucion de tipo generico, expresada con una o mas constantes.</string>
+    <string name="txt_m1_p10_6">Es una curva. Tiene un orden de infinitud de acuerdo a su cantidad de constantes(una constante corresponde a una familia simplemente infinita, dos constantes a una familia doblemente infinita,etc). En caso de que la ecuacion sea lineal, la solucion general se logra como combinacion lineal de las soluciones (tantas como el orden de la ecuacion) de la ecuacion homogenea (que resulta de hacer el termino no dependiente de y(x) ni de sus derivadas iguale a 0) mas una solucion particular de la ecuacion completa.</string>
+    //pag 11
+    <string name="txt_m1_p11_1">2. Solucion Particular:</string>
+    <string name="txt_m1_p11_2">Si fijado cualquier punto P(x0,y0) por donde debe pasar necesariamente la solucion de la ecuacion diferencial, existe un unico valor de C, y por lo tanto de la intergral que satisface la ecuacion, este recibira el nombre de solucion particular de la ecuacion en el punto P(X0,Y0), que recibe el nombre de condicion inicial.</string>
+    <string name="txt_m1_p11_3">¿QUE ES SOLUCION?:</string>
+    <string name="txt_m1_p11_4">Una solucion de una ecucacion diferencial es una funcion que al remplazar a la funcion incognita, en cada caso con las derivaciones correspondientes, verifica la ecuacion.</string>
+    <string name="txt_m1_p11_5">¿QUE ES SOLUCION GENERAL?</string>
+    <string name="txt_m1_p11_6">Se llama solucion general de una ecuacion diferencial a toda relacion entre las variables, libres derivadas,que satisfacen dicha ecuacion diferencial</string>
+    <string name="txt_m1_p11_7">Por lo comun, la solucion general de una ecuacion diferencial de orden n tiene n constantes. integrar o resolver una ecuacion diferencial es hallar su solucion general.</string>
+    <string name="txt_m1_p11_8">¿QUE ES SOLUCION PARTICULAR?</string>
+    <string name="txt_m1_p11_9">Se llama solucion particular de una ecuacion diferencial a aquella solucion que se obtiene a partir de la solucion general, dando valores a la constante.</string>
+    //pag 12
+    <string name="txt_m1_p12_n"> Pasos para encontrar una solucion general o particular</string>
+    <string name="txt_m1_p12_1"> Pasos para encontrar una solucion general o particular de una ecuacion diferencial dada:</string>
+    <string name="txt_m1_p12_2">1) Aplicar la notacion de leibniz DY/DX a la ecuacion diferencial dada (esta notacion muestra claramente ambas variables, las dependientes y las independientes).</string>
+    <string name="txt_m1_p12_3">2) Realizar el despeje expresado en el 1rt. miembro de la ecuacion diferencial en terminos unicamente de ❝Y❞ y en el segundo miembro unicamente en terminos de ❝X❞.</string>
+    <string name="txt_m1_p12_4">3) Realizar la integracion ∫ dy u ∫ dx a cada miembro de la ecuacion.</string>
+    <string name="txt_m1_p12_5">4) Despejar la variable ❝Y❞ cuyo resultado sera la SOLUCION GENERAL</string>
+    <string name="txt_m1_p12_6">5) Sustituir los valores de ❝X❞ y de la funcion  f(x)=Y para obtener la SOLUCION PARTICULAR.</string>
+    //pag 13 y 14
+    <string name="txt_m1_p13_1">Ejercicios:</string>
+    <string name="txt_m1_p13_2">Instrucciones: Dadas las siguientes diferenciales obten su solucion general y comprobar dichas solucion.</string>
+    //pag 15 y 16
+    <string name="txt_m1_p15_1">Ejercicio mas complejo...</string>
+    <string name="txt_m1_p15_2">Dado la siguiente diferencial encontrar su: \n\t * Solucion general \n\t * Solucion particular para f(1)=9 \n\t * Comprobacion de la solucion \n\t * Representar graficamente para los valores de x: 0,1,2,3,-1,-2,-3y-5.</string>
+    //pag 17
+    <string name="txt_m1_p17_1">Instrucciones: Dada la siguiente diferencial obten su solucion general y su solucion particular para y= 1/2 cuando x= 0 y realizar la comprobacion de la solucion obtenida. </string>
+    //pag 18
+    <string name="txt_m1_p18_1">Instrucciones: Dada la siguiente ecuacion diferencial obtener la solucion general y realizar la comprobacion de la solucion obtenida.</string>
+    //pag19
+    <string name="txt_m1_p19_1">Dada la ecuacion diferencial: </string>
+    <string name="txt_m1_p19_2">Obtener su solucion general y su solucion particular si Y= 3 cuando x= 1 y Realizar su comprobacion de la solucion obtenida.</string>
+
+    //pag 21,22 y 23
+    <string name="txt_m1_p20_1">Instrucciones: De las siguientes funciones</string>
+    <string name="txt_m1_p20_2">a)</string>
+    <string name="txt_m1_p20_3">b)</string>
+    <string name="txt_m1_p20_4">c)</string>
+    <string name="txt_m1_p20_5">d)</string>
+    <string name="txt_m1_p20_6">e)</string>
+    <string name="txt_m1_p20_7">Determine cuales son soluciones de la ecuacion diferencial: </string>
+    //pag 24
+    <string name="txt_m1_p24_1">Dada la funcion:</string>
+    <string name="txt_m1_p24_2">a) Demostrar si esta es una solucion general de la ecuacion diferencia.</string>
+    <string name="txt_m1_p24_3">b) Determinar el orden y grado de la ecuacion diferencial dada.</string>
+    //pag 35
+    <string name="txt_m1_p35_1">Ecuaciones diferenciales ordinarias de primer orden y de primer grado</string>
+    <string name="txt_m1_p35_2">Pertenece a esta clase de ecuaciones diferenciales cuatro tipo: \n\t * Ecuaciones con Variables Separables \n\t * Ecuaciones Homogeneas \n\t * Ecuaciones Lineales \n\t * Ecuaciones Exactas</string>
+
+    //Tema 4
+    <string name="txt_m2_p1_1">Ecuaciones con variable separada</string>
+    <string name="txt_m2_p1_2">Una ecuacion diferencial ordinaria de primer orden y de primer grado que contiene funciones f(x)dx y F(y)dy para su solucion puedan separarse de la forma:</string>
+    <string name="txt_m2_p1_n">f(x)dx + F(y)dy = 0</string>
+    <string name="txt_m2_p1_3">Se dice que es separable o que tiene variables separables, siendo: \n\t * f(x) una funcion de X unicamente \n\t * f(y) una funcion Y unicamente</string>
+    <string name="txt_m2_p2_1">Pasos para resolver ecuaciones diferenciales con variables separables:</string>
+    <string name="txt_m2_p2_2">1). Presentar la ecuacion diferencial de la forma f(x)dx + F(y)dy = 0, realizando la separacion de variables en terminos de X y DX y en terminos de Y y DY. \n (Aplicar la notacion de Leibniz dy/dx cuando se requiera) \n 2). Realizar la integracion ∫f(x)dx+∫F(y)dy=C \n 3). Despejar si es posible la variable Y cuyo resultado sera la SOLUCION GENERAL. </string>
+    <string name="txt_m2_p2_3">Biografia de Gottfried Wilhelm Leibniz</string>
+    <string name="txt_m2_p2_4">Nacio en Leipzig el 1 de julio de 1646 y murio en Hannover el 14 de noviembre de 1716. Fue un conocido matematico, filosofo, jurista, bibliotecario, politico aleman.</string>
+    \n\t *
+    //ejercicios strings
+    <string name="txt_ejercicios_t1_1">Determina si la funcion: </string>
+    <string name="txt_ejercicios_t1_2">Es una solucion de la ecuacion diferencial:</string>
+    <string name="txt_ejercicios_t2_1">Dada la funcion: </string>
+    <string name="txt_ejercicios_t2_2">Determina si es una solucion de la ecuacion diferencial:</string>
+    <string name="txt_ejercicios_t3_1">Comprobar que la funcion: </string>
+    <string name="txt_ejercicios_t3_2">Es una solucion de la ecuacion diferencial:</string>
+
+    <string name="larespuesta">Respuesta:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment"></string>
+    //creditos
+    <string name="txt_n_p">Pablo Cabrera Castrejon</string>
+    <string name="txt_n_j">Juan Angel Fuentes</string>
+    <string name="txt_n_i">Ian Arias Diaz</string>
+    <string name="txt_n_nom">Integrantes: </string>
+    <string name="txt_creditos">Encargado del Proyecto: </string>
+    <string name="txt_n_prof">David Leal Martinez</string>
+    //tema6
+    <string name="inciso1">1)</string>
+    <string name="inciso2">2)</string>
+    <string name="inciso3">3)</string>
+    <string name="inciso4">4)</string>
+    <string name="txt_m3_p1_1">Ecuaciones Homogeneas</string>
+    <string name="txt_m3_p1_2">Una ecuaciones ordinarias de primer orden y de primer grado que contienefuncion M(x,y) y N(x,y) es homogenea si las variables de X y Y son DEL MISMO GRADO.</string>
+    <string name="txt_m3_p1_3">Considera que: </string>
+    <string name="txt_m3_p1_4">Es homogenea si NO CONTIENE terminos que dependen unicamente de su variable independiente, en caso contrario No Homogenea.</string>
+    <string name="txt_m3_p1_5">La ecuacion es: \n de segundo orden \n No lineal \n Homogenea</string>
+    <string name="txt_m3_p1_6">Es homogenea porque no contiene terminos que dependen solo de su variable independiente t  m(variable dependiente). t (variable independiente).</string>
+    <string name="txt_m3_p1_7">La ecuacion es: \n 3er orden \n Lineal \n No Homogenea</string>
+    <string name="txt_m3_p1_8">Es NO HOMOGENEA porque si contiene un termino que depende solo de la variable independiente 2x</string>
+    <string name="txt_m3_p1_9">La ecuacion es: \n No Lineal \n Homogenea</string>
+    <string name="txt_m3_p1_10">Por definicion no contiene terminos que dependan solamente de su variable independiente</string>
+    <string name="txt_m3_p1_11">La ecuacion es: \n Lineal \n No Homogenea</string>
+    <string name="txt_m3_p1_12">e^x → este termino depende solo de X</string>
+    //pagina 2
+    <string name="txt_m3_p2_1">Se dice que una ecuacion es homogenea si la funcion f(x,y) es fraccionaria y ademas el grado de los polinomios de numerador y denominador son los mismos.</string>
+    <string name="txt_m3_p2_2">Es homogenea ya qie todos los terminos de ambos polinomios son de grado 3.</string>
+    <string name="txt_m3_p2_3">Asi se procede dividiendo tanto numerador como denominador por X³ o Y³ en funcion de que cambio haga mas simple su resolucion.</string>
+    <string name="txt_m3_p2_4">Se dice que una ecuacion de la forma dy/dx = f(x,y) es homogenea, siempre que la funcion F NO DEPENDA de X y Y separadamente, sino solo de sus razones y/x o x/y</string>
+    <string name="txt_m3_p2_5">Es decir las ecuaciones homogeneas son de la forma dy/dx = fx/d</string>
+    <string name="txt_m3_p2_6">nota: Como puede verse las variables X y Y no pueden separarse, la ecuacion no es exacta, ni tiene un factor integrante obvio.</string>
+    //pagina 3
+    <string name="txt_m3_p3_1">para la SOLUCION DE LAS ECUACIONES DIFERENCIALES HOMOGENEAS, considera que: </string>
+    <string name="txt_m3_p3_2">Se deben expresar de la siguiente forma: </string>
+    <string name="txt_m3_p3_3">M(x,y)dx + N(x,y)dy = 0</string>
+    <string name="txt_m3_p3_4">Efectuar uno de los CAMBIOS DE VARIABLE siguientes:</string>
+    <string name="txt_m3_p3_5">Una vez realizado los cambios de variable, resolver como ECUACIONES SEPARABLES, expresando la ecuacion diferencial de la forma: </string>
+    //pagina 4
+    <string name="txt_m3_p4_1">Pasos para Resolver Ecuaciones Homogeneas</string>
+    <string name="txt_m3_p4_2">1) Presentar la ecuacion difeencial de la forma:</string>
+    <string name="txt_m3_p4_3">M(x,y)dx + N(x,y)dy = 0</string>
+    <string name="txt_m3_p4_4">2) Realizar uno de los cambios de variable siguientes:</string>
+    <string name="txt_m4_p4_5">Y= vx \t\t\t dy= vdx + xdv \n o \n Y=vy \t\t\t dx=vdy + ydv </string>
+    <string name="txt_m4_p4_6">3) Presentar la ecuacion de la forma:</string>
+    <string name="txt_m4_p4_7">f(x)dx + f(v)dv = 0</string>
+    <string name="txt_m4_p4_8">Realizar la integracion ∫f(x)dx=∫F(v)dv = 0 + C</string>
+    <string name="txt_m4_p4_9">Realizar nuevamente el cambio de variable: </string>
+    <string name="txt_m4_p4_10">v = y/x o v = x/y</string>
+    <string name="txt_m4_p4_11">Despejar di es posible la variable Y cuto resiltado sera la SOLUCION GENERAL o dejar como SOLUCION IMPLICITA.</string>
+    //tema 5
+    <string name="txt_m4_p27_1">Ecuaciones Con coeficiente Lineal</string>
+    <string name="txt_m4_p27_2">Existen ecuaciones que son LINEALES y que para su resolucion es necesario reducirlas a ecuaciones separadas o a ecuaciones homogeneas, haciendo una traslacion.</string>
+    <string name="txt_m4_p27_3">Estas ecuaciones tienen la forma:</string>
+    <string name="txt_m4_p27_4"></string>
+    //ejercicios1
+    <string name="txt_ej_grado_1">1er</string>
+    <string name="txt_ej_grado_2">2do</string>
+    <string name="txt_ej_grado_3">3er</string>
+    <string name="txt_ej_grado_4">4er</string>
+
+    <string name="txt_ej_orden_1">1 orden</string>
+    <string name="txt_ej_orden_2">2 orden</string>
+    <string name="txt_ej_orden_3">3 orden</string>
+    <string name="txt_ej_orden_4">4 orden</string>
+    <string name="txt_ej_evaluar">Evaluar</string>
+    <string name="txt_sig">Siguiente ejercicio</string>
+    //anexos
+    <string name="anexo1">Funcion Logaritmo Natural</string>
+    <string name="anexo2">Definicion: La funcion logaritmo natural, denota por ln, se define por...</string>
+    <string name="anexo3">ln(x)= </string>
+    <string name="anexo4">para x > 0</string>
+    <string name="anexo5">Trazado de grafica de ln(x): \n\n • ln*x( es una antiderivada de 1/x. \n • Esto indica que ln(x) es derivada 1/x es positiva para todo x > 0; por lo tanto, la funcion logaritmo natural es continua y creciente en todo su dominio.  </string>
+    <string name="anexo6">Los logaritmos naturales o logaritmos neperianos son los que tienen base e. se representa por ln (x) o L(x).</string>
+    <string name="anexo7">Los logaritmos neperianos deben su nombre a su descubridor Jonh Neper y fueron los primeros en ser utilizados.</string>
+    <string name="anexo8">El logaritmo neperiano de x (ln x) es la potencia a la que se debe elevar e para obtener x.</string>
+    <string name="anexo9">Propiedades de los logaritmos naturales</string>
+    <string name="anexo10">ln 1 = 0  \n\n ln e = 1  \n\n ln e^n = n \n\n ln(x • y) = ln (x) + ln (y) \n\n ln(x / y) = ln (x) - ln (y) \n\n lnx^n = n ln (x) \n\n ln n sqtr x = 1/n ln x \n\n ln 1/e^5 = -5 \n\n Ln k=C donde k =e^c</string>
+    <string name="anexo11">Siglo XVI</string>
+    <string name="anexo12">John Neper (1550 - 1617), hacendado escoces, Baron de Murchiston, administraba sus extensas propiedades y aprovechaba el tiempo  para escribir sobre temas variados. Solo estaba interesado en algunos aspectos de la matematica, principalmente los relacionados con el calculo numerico y la trigonometria.</string>
+
+
+</resources>

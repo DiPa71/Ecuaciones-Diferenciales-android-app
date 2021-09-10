@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgred">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_tituloTemaII7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginEnd="5dp"
+                android:ems="10"
+                android:text="@string/anexo1"
+                android:textAlignment="gravity"
+                android:textColor="#580B0B"
+                android:textColorHint="#7EAD0909"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/ed_60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="20dp"
+                android:ems="15"
+                android:text="@string/anexo2"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ed_9" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:layout_margin="15dp"
+                android:background="#C4000000"
+                app:srcCompat="@drawable/anexo1" />
+
+            <TextView
+                android:id="@+id/ed_66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="20dp"
+                android:ems="15"
+                android:text="@string/anexo4"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ed_9" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_margin="15dp"
+                android:background="#C4000000"
+                app:srcCompat="@drawable/anexo2" />
+
+            <TextView
+                android:id="@+id/ed_69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="20dp"
+                android:ems="15"
+                android:text="@string/anexo5"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ed_9" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                app:srcCompat="@drawable/lnx" />
+
+            <TextView
+                android:id="@+id/ed_70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="20dp"
+                android:ems="15"
+                android:text="@string/anexo6"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ed_9" />
+
+            <TextView
+                android:id="@+id/ed_71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="20dp"
+                android:ems="15"
+                android:text="@string/anexo7"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ed_9" />
+
+            <TextView
+                android:id="@+id/ed_72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="20dp"
+                android:ems="15"
+                android:text="@string/anexo8"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textColorHint="#7EAD0909"
+                android:textSize="19sp"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ed_9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F7EBBE"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_tituloTemaII9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_marginEnd="5dp"
+                    android:ems="10"
+                    android:text="@string/anexo11"
+                    android:textAlignment="gravity"
+                    android:textColor="#580B0B"
+                    android:textColorHint="#7EAD0909"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/neper" />
+
+                <TextView
+                    android:id="@+id/ed_74"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_marginTop="20dp"
+                    android:ems="15"
+                    android:text="@string/anexo12"
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textColorHint="#7EAD0909"
+                    android:textSize="19sp"
+                    android:textStyle="normal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ed_9" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="masinfolog"
+                android:text="@string/anexo9" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/grado"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/x2"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/equal"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/prim"
+            android:title="@string/menu_tools" />
+        <item
+            android:id="@+id/nav_quinta"
+            android:icon="@drawable/fx"
+            android:title="@string/menuquinta" />
+        <item
+            android:id="@+id/nav_sexta"
+            android:icon="@drawable/echomo"
+            android:title="@string/menusexta" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/nota"
+            android:title="@string/menu_share" />
+    </group>
+
+    <item android:title="Mas opciones">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/creditos"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>
